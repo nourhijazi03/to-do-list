@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.orderDiv{
+    width: 600px;;
+    border: double orange 1px;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center; 
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    color: wheat;
+
+}
+
+.done{
+    background-color: lightgreen;
+    text-decoration: line-through;
+    color: black;
+}
+
+.checked{
+    padding: 10px;
+    color: green;
+    cursor: pointer;
+    border: 1px solid green;
+    border-radius: 50%;
+    font-size: smaller;
+    margin-left: 5px;
+
+
+}
+.deleted{
+    padding: 10px;
+    color: red;
+    cursor: pointer;
+    border: 1px solid red;
+    border-radius: 50%;
+    font-size: smaller;
+    margin-left: 12px;
+
+}
+
+@media screen and (max-width:767px){
+    .orderDiv{
+        width: 90%;
+        font-size: small;
+    }
+}

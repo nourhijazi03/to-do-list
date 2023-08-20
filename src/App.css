@@ -1,0 +1,63 @@
+
+.App{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+
+   
+}
+
+.orders{
+    min-height: 80%;
+    border:none;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 30px;
+    min-width: 50%;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+
+.inputDiv{
+    display: flex;
+    justify-content: space-around;
+    
+    padding: 30px;
+    width: 50%;
+}
+.inputDiv input{
+    width: 300px;
+    height: 30px;
+    border: double 5px orange;
+    background-color: inherit;
+    padding: 10px;
+    border-radius: 12px;
+    font-size: medium;
+    color: wheat;
+}
+.inputDiv button{
+    width: 200px;
+    background-color: inherit;
+    background-color: orange;
+    border-radius: 30px;
+    border-end-end-radius: 40px;
+    font-weight: bolder;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+@media screen and (max-width:767px){
+    .orders{
+        width: 80%;
+    }
+    .inputDiv{
+        width: 90%;
+        justify-content: space-between;
+    }
+}
